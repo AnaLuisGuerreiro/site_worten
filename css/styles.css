@@ -17,27 +17,53 @@ nav, a{
     font-weight: 600;
 }
 
-nav,i{
-    font-size: 21px;
-    height: 100%;
-}
 
 
 header{
     background-color: var(--corPrimaria);
 }
 
+.servicos{
+    font-size: 23px;
+    height: 20px;
+}
+
 .search{
     border-radius: 50px;
-    width: 550px;
+    width: 300px;
     height: 47px;
 }
 
+.lupa{
+    position: absolute;
+    top: 21px;
+    font-size: 27px;
+    margin-left: 19%;
+    color: rgba(0, 0, 0, 0.363);
+}
+
+.user{
+    top: 0px;
+    font-size: 35px;
+    position: absolute;
+    right: 19.3rem;
+}
+
 .ul-2, i{
-font-size: 30px;
+font-size: 25px;
 }
 
 .iniciar-sessao, span{
     font-size: 12px;
     font-weight: bold;
 }
+
+
+/* Main styles */
+
+.precos{
+    font-size: 12px;
+}
+
+.condicao{
+font-size: 18px;}
