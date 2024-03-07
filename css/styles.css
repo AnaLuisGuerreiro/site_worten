@@ -2,6 +2,7 @@
 
 :root{
     --corPrimaria: #dc1a14;
+    --corFundo: #f6f6f6;
 }
 
 
@@ -9,6 +10,10 @@
 *{
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
+}
+
+body{
+    background-color: var(--corFundo);
 }
 
 nav, a{
@@ -67,3 +72,33 @@ font-size: 25px;
 
 .condicao{
 font-size: 18px;}
+
+.bolas{
+    width: 70px;
+}
+
+
+.btn-adicionar{
+    text-align: center;
+    background-color: var(--corPrimaria);
+    font-size: 12px;
+    font-weight: bold;
+    width: 125px;
+}
+.btn-adicionar i{
+    font-size: 14px;
+}
+
+.deal{
+    margin-top: 10px;
+    margin-left: 26px;
+    width: 133px;
+}
+
+#deal{
+    background-color: #DDDD;
+}
+
+#deal-add{
+    margin-top: 69.3px;
+}
